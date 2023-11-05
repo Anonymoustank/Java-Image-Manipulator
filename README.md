@@ -2,3 +2,4 @@
 Image Manipulation with Filters (requires Java 11+)!
 - Instructions: compile in the directory by running "javac *.java"
 - Run "java SnapShop"
+- Filters written by me, and attribution for the GUI is located within each respective .java file
