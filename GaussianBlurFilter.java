@@ -1,4 +1,4 @@
-public class GuassianBlurFilter extends Filter
+public class GaussianBlurFilter extends Filter
 {
     public void modifyPixels() {
         Pixel[][] data = getData();

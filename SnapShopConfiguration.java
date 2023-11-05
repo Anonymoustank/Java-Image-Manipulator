@@ -17,7 +17,7 @@ public class SnapShopConfiguration
         theShop.addFilter(new NegativeImageFilter(), "Reverse Image (Invertible)");  
         theShop.addFilter(new GreyScaleFilter(), "Gray Scale Image (Not invertible)" );
         theShop.addFilter(new Lighten10Filter(), "Lighten 10% Filter (Not invertible)" );
-        theShop.addFilter(new GuassianBlurFilter(), "Gaussian Blur Image (Not invertible)"); 
+        theShop.addFilter(new GaussianBlurFilter(), "Gaussian Blur Image (Not invertible)"); 
         //theShop.addFilter(new LaplacianFilter(), "Laplacian Image");   
         //theShop.addFilter(new UnsharpMaskFilter(), "UnsharpMask" );
         //theShop.addFilter(new EdgyFilter(), "Edgy Image" );
